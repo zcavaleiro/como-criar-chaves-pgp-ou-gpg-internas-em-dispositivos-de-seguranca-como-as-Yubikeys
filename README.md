@@ -1,13 +1,30 @@
-# Como criar chaves PGP ou GPG internas em dispositivos de segurança como as Yubikeys. - WIP ...
+# Como criar chaves PGP ou GPG internas em dispositivos de segurança como as Yubikeys.
 
 ## Tabela de conteúdos
 
-
+- [Objetivo.](#objetivo)  
+- [O que é o PGP ou GPG e para que serve?](#o-que-é-o-pgp-ou-gpg-e-para-que-serve)
+- [Chaves de segurança de hardware.](#chaves-de-segurança-de-hardware)
+- [Resumo sobre o uso de chaves internas GPG e chaves externas GPG.](#resumo-sobre-o-uso-de-chaves-internas-gpg-e-chaves-externas-gpg)
+  - [Chaves externas GPG](#chaves-externas-gpg)
+  - [Chaves internas GPG](#chaves-internas-gpg)
+- [Configurações iniciais](#configurações-iniciais)
+- [Mudar o PIN e Admin PIN para o serviço GPG na Yubikey.](#mudar-o-pin-e-admin-pin-para-o-serviço-gpg-na-yubikey)
+- [Configurações.](#configurações)
+- [Criar chave GPG na Yubikey.](#criar-chave-gpg-na-yubikey)
+- [Ativar o touch, toque na Yubikey para operações PGP/GPG.](#ativar-o-touch-toque-na-yubikey-para-operações-pgpgpg)
+- [Outros.](#outros)
+  - 1 - Comandos úteis
+  - 2 - Configurar o git em Linux para assinar os commits com PGP/GPG
+  - 3 - Configurar o Git em Windows para usar PGP/GPG
+- [Bibliografia.](#bibliografia)
+    - [Docs.](#docs)
+    - [Vids.](#vids)
 
 
 <br>
 
-## Objetivo
+## Objetivo.
 - Este documento tem como finalidade compilar informação sobre como criar chaves PGP ou GPG internas num dispositivo de hardware de segurança. Neste exemplo, vamos usar uma Yubikey 5, num ambiente Windows em final de 2024. Grande parte das configurações também se aplica ao sistema operativo Linux.
 - Para partilhar como orientação geral e disponibilizar o tema em língua Portuguesa. Não tem como objetivo ser um guia detalhado. No entanto, é um contributo ou mais uma gota de água para o oceano, para melhorar comunicações seguras.
 
@@ -28,7 +45,7 @@
 <br>
 
 ## Chaves de segurança de hardware.
-breves
+Para uma introdução sobre chaves de segurança de hardware ou *security keys*, consultar: [Como criar chaves SSH com Yubikey ou outras chaves de segurança, hardware security keys.](https://github.com/zcavaleiro/como-criar-chaves-ssh-com-yubikey-ou-outras-chaves-de-seguranca-ou-hardware-security-keys/blob/main/README.md)
 
 ## Resumo sobre o uso de chaves internas GPG e chaves externas GPG.
 
@@ -635,19 +652,28 @@ git config --global commit.gpgsign true
 
 <br>
 
-BIB
-
-## vids
-  - [CodeWrecks - I bought a Yubikey now What - GPG on Yubikey](https://www.youtube.com/watch?v=PWHM5etA6F4)
-  - [CodeWrecks - I bought a Yubikey now what: More about GPG/PGP](https://www.youtube.com/watch?v=TYT8dpTUkN0)
-  - [CodeWrecks - I bought a Yubikey now what - Sign Git Commits with GPG](https://www.youtube.com/watch?v=6ftI9WvYRjA)
-  - [Yubico - Configuring YubiKey 5 for SSH/GPG access to GitHub](https://www.youtube.com/watch?v=fEftwheNMm8)
-
+## Bibliografia.
 
 ## Docs
   - https://gnupg.org/
   - https://en.wikipedia.org/wiki/GNU_Privacy_Guard
   - https://en.wikipedia.org/wiki/Pretty_Good_Privacy
   - https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP
-
   - https://github.com/drduh/YubiKey-Guide
+
+## Vids
+  - [CodeWrecks - I bought a Yubikey now What - GPG on Yubikey](https://www.youtube.com/watch?v=PWHM5etA6F4)
+  - [CodeWrecks - I bought a Yubikey now what: More about GPG/PGP](https://www.youtube.com/watch?v=TYT8dpTUkN0)
+  - [CodeWrecks - I bought a Yubikey now what - Sign Git Commits with GPG](https://www.youtube.com/watch?v=6ftI9WvYRjA)
+  - [Yubico - Configuring YubiKey 5 for SSH/GPG access to GitHub](https://www.youtube.com/watch?v=fEftwheNMm8)
+
+
+
+<br>
+
+<div dir=RtL> 
+:Autor</br>
+<i>Zito Cavaleiro  </i>-   email: zcavaleiro AT protonmail DOT com</br>
+Professor de Matemática e Ciências da Natureza</br>
+Engenheiro de Automação de Tecnologias de Informação</div>
+
