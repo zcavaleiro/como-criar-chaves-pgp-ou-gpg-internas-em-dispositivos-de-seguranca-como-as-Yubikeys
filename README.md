@@ -107,7 +107,7 @@ Para uma introdução sobre chaves de segurança de hardware ou *security keys*,
 - Uma das ferramentas que `Gpg4win` instala é o [**Kleopatra**](https://apps.kde.org/kleopatra/) que é uma ferramenta gráfica open-source que gere certificados e disponibiliza vários serviços de criptografia com foco no OpenGPG.
 
   - No nosso caso, a primeira coisa a fazer no menu *Smartcards* é mudar o **Admin PIN** e o **PIN**   
-  ![Imagem da app Kleopatra](imgs/kleo1.jpg "Mudar o Admin PIN e PIN")
+  ![Imagem da app Kleopatra](imgs/kleo1a.jpg "Mudar o Admin PIN e PIN")
   - Estes *Pins*, são uma proteção de segurança em caso de perda ou roubo da Yubikey. Deste modo e com um número limitado de tentativas (3), se o utilizador não souber os *Pins* é quase impossível aceder a estas funções.
   
   - Por *default* o PIN vem com a pass 123456 e o Admin PIN 12345678.
